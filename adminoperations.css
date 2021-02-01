@@ -1,0 +1,40 @@
+btn {
+ width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius:10px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  outline: none;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #008CBA;
+  background-size:130px,150px;
+}
+#main-holder {
+  width: 50%;
+  height: 80%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: white;
+  
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.add {color: white;}
+.view {color: white;}
+.update {color: white;}

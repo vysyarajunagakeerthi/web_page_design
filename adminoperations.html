@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>ADMIN OPERATIONS</title>
+  <link rel="stylesheet" href="adminoperations.css">
+</head>
+<body>
+<h1 style="color:pink">CHOOSE YOUR OPTION BELOW</h1>
+<main id="main-holder">
+</br>
+<button  class="btn count" onclick="count()" target="blank">Dispaly total number of students</button></br>
+<button  class="btn count_by_branch" onclick="count_by_branch()">Display number of students in branch wise</button></br>
+<button  class="btn view" onclick="view()" >View all students with details</button></br>
+<button  class="btn update" onclick="update()">Update all students with details</button></br>
+
+</main>
+<script>
+function count(){
+location.replace("count.html");
+}
+</script>
+<script>
+function count_by_branch(){
+location.replace("count_by_branch.html");
+}
+</script>
+<script>
+function view(){
+location.replace("view.html");
+}
+</script>
+<script>
+function update(){
+location.replace("update.html");
+}
+</script>
+</body>
+</html>
